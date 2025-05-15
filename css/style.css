@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.ageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    width: 100px;
+    margin: 0 auto;
+}
+.ageInput {
+    margin-top: 10px;
+    width: 35px;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#resultDisplay{
+    margin-top: 10px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+}
