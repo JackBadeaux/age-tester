@@ -5,7 +5,6 @@ const checkButton = document.getElementById("checkButton")
 checkButton.addEventListener("click", function () {
     const age = Number(ageInput.value);
     if (age <= 0 || age >= 130) {
-  
          result.textContent = "Error not vaild age"
          result.style.color = "red"
     } else if (age < 18){

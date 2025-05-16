@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body,main,html{
+    height: 100%;
+    margin: 0;
+
+}
 .ageDiv {
     display: flex;
     flex-direction: column;
@@ -15,7 +20,7 @@
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: normal;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -26,4 +31,16 @@
 }
 button{
     margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+.parentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+button:hover{
+    scale: 1.1;
 }
