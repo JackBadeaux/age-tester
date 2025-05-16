@@ -11,6 +11,7 @@ body,main,html{
     border: 2px black solid;
     width: 100px;
     margin: 0 auto;
+    padding: 20px;
 }
 .ageInput {
     margin-top: 10px;
